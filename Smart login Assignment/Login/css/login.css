@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(36, 53, 63);
+}
+.container {
+    background-color: rgb(36, 53, 63);
+    box-shadow: 0px 2px 67px 10px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.form-control {
+     transition: all 0.3s;
+    background-color: transparent;
+}
+.form-control:focus{
+    background-color: transparent;
+    border: solid 1px rgb(0, 195, 255);
+   
+}   

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+          <!-- Font Awesome-->
+          <link rel="stylesheet" href="css/all.min.css"> 
+          <!-- Bootstrap-->
+          <link rel="stylesheet" href='css/bootstrap.min.css'>
+          <!-- Google fonts -->
+          <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+          <!-- main style sheet-->
+          <link rel="stylesheet" href="css/signup.css">
+        <title>Sign up</title>
+</head>
+<body>
+
+
+    <div class="container text-center my-5 d-flex justify-content-center">
+      <div class="py-5 d-flex flex-column justify-content-center w-75">
+       <h1 class="my-3 text-info">Smart Login System</h1>
+       <input  type="text" id="signupName" class="form-control mb-4 mt-2 text-light " placeholder="Enter Your  Name"required>
+       <input  type="email" id="signupEmail" class="form-control mb-4 mt-2 text-light" placeholder="Enter Your  Email"required>
+       <input  type="password" id="signupPassword"  class="form-control mb-4 text-light"placeholder="Enter Your Password"required>
+       <p id="alertMessage" class=" d-none"></p>
+       <button id="signupBtn" class="btn btn-outline-info w-100">Sign Up</button>
+       <p id="signin" class="text-light  mt-4 "> You have an account? <a href="../../Login/login.html">Signin</a> </p>
+      </div>
+</div>
+    <script src="js/signup.js"></script>
+</body>
+</html>
